@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard 5</title>
+    <link rel="stylesheet" href="../asserts/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Boshqaruv Paneli 5</h1>
+        <div class="user-info">
+            <span id="username-display"></span>
+            <button id="logout-btn">Chiqish</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Bosh sahifa</a></li>
+                <li><a href="#">Postlar</a></li>
+                <li><a href="#">Izohlar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="overview">
+            <h2>Umumiy Ko'rinish</h2>
+            <div class="widget">
+                <h3>Jami Postlar</h3>
+                <p class="number">100</p>
+            </div>
+            <div class="widget">
+                <h3>Yangi Izohlar</h3>
+                <p class="number">20</p>
+            </div>
+        </section>
+        <section class="post-list">
+            <h2>Oxirgi Postlar</h2>
+            <table id="post-table">
+                <thead>
+                    <tr>
+                        <th>Sarlavha</th>
+                        <th>Kontent</th>
+                    </tr>
+                </thead>
+                <tbody id="post-body">
+                    </tbody>
+            </table>
+        </section>
+        <section class="comment-list">
+            <h2>Oxirgi Izohlar</h2>
+            <table id="comment-table">
+                <thead>
+                    <tr>
+                        <th>Post</th>
+                        <th>Matn</th>
+                    </tr>
+                </thead>
+                <tbody id="comment-body">
+                    </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Loyiha 5</p>
+    </footer>
+    <script src="../asserts/js/scripts.js"></script>
+</body>
+</html>
